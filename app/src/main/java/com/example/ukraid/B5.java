@@ -10,17 +10,17 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class A6 extends AppCompatActivity {
+public class B5 extends AppCompatActivity {
     private SeekBar seekBar ;
     private TextView textView;
     private Button next;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a6);
+        setContentView(R.layout.b5);
         seekBar = (SeekBar)findViewById(R.id.simpleSeekBar);
-        seekBar.setMax(40);
-        seekBar.setProgress(5);
+        seekBar.setMax(100);
+        seekBar.setProgress(0);
         textView = findViewById(R.id.textView3);
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -29,7 +29,7 @@ public class A6 extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 progressChangedValue = i;
-                textView.setText(String.valueOf(i)+" hours");
+                textView.setText(String.valueOf(i)+" %");
 
             }
 
@@ -49,7 +49,7 @@ public class A6 extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), A7.class));
+                startActivity(new Intent(getApplicationContext(), B6.class));
             }
         });
 

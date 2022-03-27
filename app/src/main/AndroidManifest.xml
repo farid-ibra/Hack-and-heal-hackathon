@@ -51,6 +51,46 @@
             android:name=".A6"
             android:screenOrientation="portrait"
             />
+        <activity
+            android:name=".A7"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B1"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B2"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B3"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B4"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B5"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B6"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B7"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B8"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".B9"
+            android:screenOrientation="portrait"
+            />
     </application>
 
 </manifest>
